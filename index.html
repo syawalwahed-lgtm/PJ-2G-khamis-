@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6c4cf1">
+  <meta name="description" content="Permainan pembelajaran Pendidikan Jasmani Tahun 2: Manipulasi Alatan.">
+  <title>Misi Bintang Sukan — PJ Tahun 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="cloud cloud-a">☁️</span><span class="cloud cloud-b">☁️</span>
+    <span class="star-float sf1">⭐</span><span class="star-float sf2">✨</span>
+    <span class="ball-float">🏀</span>
+  </div>
+  <header class="topbar">
+    <a class="brand" href="#mula" aria-label="Misi Bintang Sukan"><span class="brand-icon">🏆</span><span>MISI BINTANG SUKAN<small>PJ TAHUN 2</small></span></a>
+    <div class="top-actions">
+      <button id="soundToggle" class="pill-button" type="button" aria-pressed="false">🔊 Bunyi: OFF</button>
+      <button id="readIntro" class="pill-button secondary" type="button">🗣️ Baca nota</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="mula" class="hero panel">
+      <div class="hero-copy">
+        <span class="eyebrow">🌈 BELAJAR SAMBIL BERMAIN</span>
+        <h1>Jom Jadi <span>Juara Alatan!</span></h1>
+        <p>Teroka kemahiran membaling, menggolek, menendang dan menangkap. Kumpul bintang dan buka trofi kemenangan!</p>
+        <div class="student-entry">
+          <label for="studentName">Nama murid</label>
+          <input id="studentName" maxlength="60" placeholder="Tulis nama kamu di sini" autocomplete="name">
+        </div>
+        <div class="hero-buttons">
+          <a class="button primary" href="#belajar">🚀 Mula belajar</a>
+          <a class="button ghost" href="#cabaran">🎯 Terus ke kuiz</a>
+        </div>
+        <div class="mini-stats"><span>⭐ <b id="starCount">0</b> bintang</span><span>🎯 <b id="progressText">0/8</b> soalan</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi kartun peralatan sukan">
+        <div class="sun">☀️</div><div class="rainbow">🌈</div>
+        <div class="kid">🧒🏻</div><div class="ball ball1">⚽</div><div class="ball ball2">🏀</div>
+        <div class="ground"></div><div class="flag">🏁</div>
+        <div class="speech">Kamu pasti boleh! 💪</div>
+      </div>
+    </section>
+
+    <nav class="quick-nav" aria-label="Navigasi pembelajaran">
+      <a href="#hasil">🎯 Objektif</a><a href="#standard">📘 SK &amp; SP</a><a href="#belajar">🧠 Nota</a><a href="#video">▶️ Video</a><a href="#cabaran">🎮 Kuiz</a>
+    </nav>
+
+    <section id="hasil" class="section">
+      <div class="section-heading"><span class="section-emoji">🎯</span><div><p class="eyebrow">MISI HARI INI</p><h2>Selepas belajar, kamu boleh…</h2></div></div>
+      <div class="objective-grid">
+        <article class="objective-card"><span>🤾</span><h3>Kenal kemahiran</h3><p>Mengenal pasti contoh kemahiran manipulasi alatan.</p></article>
+        <article class="objective-card"><span>⚽</span><h3>Pilih teknik</h3><p>Memadankan aktiviti dengan alatan dan anggota badan yang sesuai.</p></article>
+        <article class="objective-card"><span>🛡️</span><h3>Utamakan keselamatan</h3><p>Menggunakan ruang dan alatan dengan selamat serta menyimpan alatan selepas aktiviti.</p></article>
+      </div>
+    </section>
+
+    <section id="standard" class="section panel soft-panel">
+      <div class="section-heading"><span class="section-emoji">📘</span><div><p class="eyebrow">RUJUKAN KURIKULUM</p><h2>Standard Kandungan &amp; Pembelajaran</h2></div></div>
+      <div class="standard-grid">
+        <article class="standard-card">
+          <span class="standard-tag">SK 1.4</span><h3>Manipulasi Alatan</h3>
+          <p>Berkebolehan melakukan kemahiran manipulasi alatan dengan lakuan yang betul.</p>
+        </article>
+        <article class="standard-card">
+          <span class="standard-tag">SP 1.4.1</span><h3>Pelbagai kemahiran</h3>
+          <p>Melambung, menyambut, menggolek, menendang, menyerkap, melantun, membaling, menangkap, memukul dan mengelecek.</p>
+        </article>
+        <article class="standard-card">
+          <span class="standard-tag">SP 1.4.2–1.4.6</span><h3>Kawalan bola</h3>
+          <p>Menggolek bola pada satu jarak, membaling bola pada satu jarak, menangkap bola dengan serapan daya, menendang perlahan bola yang digolekkan perlahan dan menyerkap bola yang bergerak.</p>
+        </article>
+        <article class="standard-card">
+          <span class="standard-tag">SP 1.4.7–1.4.10</span><h3>Memukul &amp; mengelecek</h3>
+          <p>Memukul belon ke atas dan ke hadapan dengan pemukul berpermukaan luas, memukul bola di atas tee dengan bat berbentuk silinder, serta mengelecek bola menggunakan tangan dan kaki.</p>
+        </article>
+      </div>
+      <p class="source-note">Nota guru: Standard di atas diringkaskan daripada DSKP KSSR Semakan 2017 PJPK Tahun 2. Sila semak dokumen rasmi sekolah/KPM sebelum digunakan sebagai petikan rasmi atau untuk pemetaan RPH.</p>
+      <a class="text-link" href="https://sites.google.com/moe-dl.edu.my/skbls-cloud-center/kurikulum/panitia-2024/pjpk/2-pjpk-dskp/2-1-pjpk-dskp" target="_blank" rel="noopener">📄 Rujukan DSKP Tahun 2</a>
+    </section>
+
+    <section id="belajar" class="section">
+      <div class="section-heading"><span class="section-emoji">🧠</span><div><p class="eyebrow">NOTA INFOGRAFIK</p><h2>Kenali 4 kemahiran utama</h2></div></div>
+      <p class="section-intro">Tekan kad untuk mendengar penerangan ringkas. Cuba buat pergerakan tanpa alatan dahulu, kemudian berlatih menggunakan alatan yang sesuai bersama guru.</p>
+      <div class="skill-grid">
+        <button class="skill-card throw" data-say="Membaling. Pegang bola dengan selesa, pandang sasaran dan baling ke arah ruang yang selamat." type="button"><span class="skill-illustration">🤾‍♀️</span><span class="skill-number">01</span><h3>Membaling</h3><p>Hantar objek ke arah sasaran menggunakan tangan.</p><span class="skill-tip">💡 Pandang sasaran</span></button>
+        <button class="skill-card roll" data-say="Menggolek. Rendahkan badan sedikit dan golekan bola ke arah sasaran di atas lantai." type="button"><span class="skill-illustration">🎳</span><span class="skill-number">02</span><h3>Menggolek</h3><p>Gerakkan bola supaya bergolek di atas lantai.</p><span class="skill-tip">💡 Sasarkan ruang kosong</span></button>
+        <button class="skill-card kick" data-say="Menendang. Gunakan kaki untuk menendang bola dengan perlahan ke arah sasaran yang kosong." type="button"><span class="skill-illustration">⚽</span><span class="skill-number">03</span><h3>Menendang</h3><p>Gunakan kaki untuk menggerakkan bola.</p><span class="skill-tip">💡 Pastikan kawasan lapang</span></button>
+        <button class="skill-card catch" data-say="Menangkap. Fokus pada bola, hulurkan tangan dan lembutkan siku untuk menyerap daya apabila bola sampai." type="button"><span class="skill-illustration">👐</span><span class="skill-number">04</span><h3>Menangkap</h3><p>Sambut bola dengan tangan dan serap daya.</p><span class="skill-tip">💡 Mata ikut bola</span></button>
+      </div>
+      <div class="safety-strip"><span>🛡️</span><div><b>Peraturan Juara Selamat</b><p>Jarakkan diri daripada rakan, tunggu giliran, gunakan bola lembut jika sesuai, baling ke arah sasaran yang ditetapkan dan simpan semua alatan selepas selesai.</p></div></div>
+    </section>
+
+    <section id="video" class="section panel video-panel">
+      <div class="section-heading"><span class="section-emoji">▶️</span><div><p class="eyebrow">TONTON &amp; CUBA</p><h2>Video pembelajaran</h2></div></div>
+      <p class="section-intro">Tonton video yang berkaitan dengan kemahiran manipulasi alatan. Video disediakan oleh pihak ketiga dan memerlukan sambungan internet.</p>
+      <div class="video-grid">
+        <article class="video-card"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/QrEdqFDW5_k" title="Pendidikan Jasmani Tahun 2 - Kemahiran Manipulasi Alatan Bahagian 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><h3>Manipulasi Alatan — Bahagian 2</h3><p>Contoh lakuan kemahiran manipulasi alatan.</p><a href="https://www.youtube.com/watch?v=QrEdqFDW5_k" target="_blank" rel="noopener">Buka di YouTube ↗</a></article>
+        <article class="video-card"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/vsXfARlXcbk" title="Pendidikan Jasmani Tahun 2 - Kemahiran Membaling" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><h3>Fokus: Kemahiran Membaling</h3><p>Demonstrasi membaling bola dan permainan kecil.</p><a href="https://www.youtube.com/watch?v=vsXfARlXcbk" target="_blank" rel="noopener">Buka di YouTube ↗</a></article>
+      </div>
+    </section>
+
+    <section id="cabaran" class="section quiz-section">
+      <div class="section-heading"><span class="section-emoji">🎮</span><div><p class="eyebrow">CABARAN BINTANG</p><h2>Uji minda kamu!</h2></div></div>
+      <div class="quiz-shell">
+        <div class="quiz-top"><span id="questionCounter">SOALAN 1 DARIPADA 8</span><span class="quiz-score">⭐ <b id="quizStars">0</b></span></div>
+        <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+        <div id="quizContent" class="quiz-content">
+          <div class="question-art" id="questionArt">🤔</div>
+          <h3 id="questionText">Kemahiran manakah menggunakan kaki untuk menggerakkan bola?</h3>
+          <div id="answers" class="answer-grid"></div>
+          <p id="feedback" class="feedback" aria-live="polite">Pilih satu jawapan. Kamu boleh buat!</p>
+          <button id="nextQuestion" class="button primary next-button" type="button" disabled>Soalan seterusnya ➜</button>
+        </div>
+        <div id="winScreen" class="win-screen" hidden>
+          <div class="confetti-emoji">🎉⭐🏆✨</div><p class="eyebrow">MISI SELESAI!</p><h3 id="winTitle">Syabas, Juara!</h3>
+          <p id="winMessage">Kamu sudah menamatkan cabaran.</p>
+          <div class="trophy">🏆</div><div class="final-score"><span>⭐</span><b id="finalStars">0/8</b><small>bintang dikumpul</small></div>
+          <p id="finalAdvice"></p>
+          <button id="restartQuiz" class="button primary" type="button">🔁 Main sekali lagi</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="teacher-card">
+      <div class="teacher-icon">👨🏻‍🏫</div><div><p class="eyebrow">DISEDIAKAN OLEH</p><h2>MUHAMAD SYAWALWAHED</h2><p>SK (P) JALAN YAHYA AWAL</p></div><div class="teacher-badge">📚<br>Belajar<br>Aktif!</div>
+    </section>
+  </main>
+  <footer><p>🌟 Misi Bintang Sukan · Pendidikan Jasmani Tahun 2</p><p class="footer-small">Belajar dengan gembira, bergerak dengan selamat.</p></footer>
+  <div id="celebration" class="celebration" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
